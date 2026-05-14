@@ -99,8 +99,6 @@ main {
   width: 44px;
   height: 44px;
   object-fit: contain;
-  transform: scale(1.8);
-  transform-origin: center;
 }
 
 .brand span {

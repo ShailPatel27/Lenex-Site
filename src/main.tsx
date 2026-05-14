@@ -212,7 +212,7 @@ function Hero() {
     <section className="hero" id="top">
       <nav className="nav" aria-label="Primary navigation">
         <a className="brand" href="#top">
-          <img src="/images/lenex-logo-without-name-transparent.png" alt="" />
+          <img src="/icon-192.png" alt="" />
           <span>
             <small>Lenex</small>
             <strong>Code Insights</strong>
