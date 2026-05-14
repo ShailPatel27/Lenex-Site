@@ -1,0 +1,18 @@
+{
+  "name": "Code Insights by Lenex",
+  "short_name": "Code Insights",
+  "description": "Understand Python behavior, side effects, return values, and practical traps directly inside VS Code.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#07100f",
+  "theme_color": "#07100f",
+  "icons": [
+    {
+      "src": "/images/lenex-logo-without-name-transparent.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
