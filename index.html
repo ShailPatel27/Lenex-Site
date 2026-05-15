@@ -6,14 +6,14 @@
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta
       name="description"
-      content="Code Insights by Lenex is a VS Code extension that explains Python behavior, side effects, return values, and practical coding traps directly inside your editor."
+      content="Lenex builds AI-powered developer tools for code understanding. Code Insights explains Python behavior, side effects, return values, and debugging intuition directly inside VS Code."
     />
     <meta
       name="keywords"
       content="Code Insights, Lenex, VS Code extension, Python extension, Python debugging, Python learning, code explanation, function behavior, NumPy, developer tools"
     />
     <meta name="author" content="Lenex" />
-    <meta name="application-name" content="Code Insights" />
+    <meta name="application-name" content="Lenex" />
     <meta name="theme-color" content="#07100f" />
 
     <link rel="canonical" href="https://lenex.dev/" />
@@ -25,28 +25,28 @@
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Lenex" />
-    <meta property="og:title" content="Code Insights by Lenex" />
+    <meta property="og:title" content="Lenex — AI Tools & Developer Intelligence" />
     <meta
       property="og:description"
-      content="Understand what your Python code actually does. Code Insights explains behavior, side effects, return values, and practical traps inside VS Code."
+      content="AI-powered developer tools for understanding code behavior, side effects, return values, and debugging intuition directly inside VS Code."
     />
     <meta property="og:url" content="https://lenex.dev/" />
-    <meta property="og:image" content="https://lenex.dev/images/lenex-full-logo-transparent.png" />
-    <meta property="og:image:secure_url" content="https://lenex.dev/images/lenex-full-logo-transparent.png" />
+    <meta property="og:image" content="https://lenex.dev/preview.png" />
+    <meta property="og:image:secure_url" content="https://lenex.dev/preview.png" />
     <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="512" />
-    <meta property="og:image:height" content="512" />
-    <meta property="og:image:alt" content="Lenex logo for Code Insights" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Lenex Code Insights preview showing AI tools for better code insight" />
     <meta property="og:locale" content="en_US" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Code Insights by Lenex" />
+    <meta name="twitter:title" content="Lenex — AI Tools & Developer Intelligence" />
     <meta
       name="twitter:description"
-      content="A VS Code extension for understanding Python behavior, side effects, return values, and practical coding traps directly in your editor."
+      content="AI-powered developer tools for understanding Python behavior, side effects, return values, and debugging intuition inside VS Code."
     />
-    <meta name="twitter:image" content="https://lenex.dev/images/lenex-full-logo-transparent.png" />
-    <meta name="twitter:image:alt" content="Lenex logo for Code Insights" />
+    <meta name="twitter:image" content="https://lenex.dev/preview.png" />
+    <meta name="twitter:image:alt" content="Lenex Code Insights social preview" />
 
     <meta name="apple-mobile-web-app-title" content="Code Insights" />
     <meta name="mobile-web-app-capable" content="yes" />
@@ -54,35 +54,62 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "Code Insights",
-        "applicationCategory": "DeveloperApplication",
-        "operatingSystem": "Windows, macOS, Linux",
-        "description": "Code Insights by Lenex is a VS Code extension that explains Python behavior, side effects, return values, and practical coding traps directly inside the editor.",
-        "url": "https://lenex.dev/",
-        "image": "https://lenex.dev/images/lenex-full-logo-transparent.png",
-        "author": {
-          "@type": "Organization",
-          "name": "Lenex",
-          "url": "https://lenex.dev/"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "Lenex",
-          "url": "https://lenex.dev/"
-        },
-        "downloadUrl": "https://marketplace.visualstudio.com/items?itemName=Lenex.code-insights",
-        "softwareHelp": "https://github.com/ShailPatel27/Code-Insights/issues",
-        "codeRepository": "https://github.com/ShailPatel27/Code-Insights",
-        "offers": {
-          "@type": "Offer",
-          "price": "0",
-          "priceCurrency": "USD"
-        }
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://lenex.dev/#organization",
+            "name": "Lenex",
+            "url": "https://lenex.dev/",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://lenex.dev/icon-512.png",
+              "width": 512,
+              "height": 512
+            },
+            "image": "https://lenex.dev/preview.png",
+            "sameAs": [
+              "https://github.com/ShailPatel27/Code-Insights"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://lenex.dev/#website",
+            "name": "Lenex",
+            "url": "https://lenex.dev/",
+            "publisher": {
+              "@id": "https://lenex.dev/#organization"
+            },
+            "description": "AI-powered developer tools and intelligent systems for understanding code."
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://lenex.dev/#code-insights",
+            "name": "Code Insights",
+            "applicationCategory": "DeveloperApplication",
+            "operatingSystem": "Windows, macOS, Linux",
+            "description": "Code Insights by Lenex is a VS Code extension that explains Python behavior, side effects, return values, and practical coding traps directly inside the editor.",
+            "url": "https://lenex.dev/",
+            "image": "https://lenex.dev/preview.png",
+            "author": {
+              "@id": "https://lenex.dev/#organization"
+            },
+            "publisher": {
+              "@id": "https://lenex.dev/#organization"
+            },
+            "downloadUrl": "https://marketplace.visualstudio.com/items?itemName=Lenex.code-insights",
+            "softwareHelp": "https://github.com/ShailPatel27/Code-Insights/issues",
+            "codeRepository": "https://github.com/ShailPatel27/Code-Insights",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
       }
     </script>
 
-    <title>Code Insights by Lenex | Understand Python Behavior in VS Code</title>
+    <title>Lenex — AI Tools & Developer Intelligence for VS Code</title>
   </head>
   <body>
     <div id="root"></div>
